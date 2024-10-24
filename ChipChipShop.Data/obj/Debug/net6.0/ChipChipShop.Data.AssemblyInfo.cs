@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChipChipShop.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74266470c7152d016f24251466df790ca2c552e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChipChipShop.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChipChipShop.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
