@@ -1,5 +1,6 @@
 ﻿using ChipChipShop.Data.Configurations;
 using ChipChipShop.Data.Entities;
+using ChipChipShop.Data.Extensions;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,7 @@ namespace ChipChipShop.Data.EF
 
             protected override void OnModelCreating(ModelBuilder modelBuilder)
             {
+            //Configure using  Fluent API
                 modelBuilder.ApplyConfiguration(new CartConfiguration());
 
                 modelBuilder.ApplyConfiguration(new AppConfigConfiguration());
@@ -33,8 +35,11 @@ namespace ChipChipShop.Data.EF
                 modelBuilder.ApplyConfiguration(new PromotionConfiguration());
                 modelBuilder.ApplyConfiguration(new TransactionConfiguration());
 
-                //base.OnModelCreating(modelBuilder);
-            }
+            //Data seeding
+            modelBuilder.Seed();
+
+            //base.OnModelCreating(modelBuilder);
+        }
 
             public DbSet<Product> Products { get; set; }
             public DbSet<Category> Categories { get; set; }
