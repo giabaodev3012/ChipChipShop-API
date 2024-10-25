@@ -6,11 +6,9 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace ChipChipShop.Data.EF
+namespace ChipChipShopSolution.Data.EF
 {
     public class ChipChipShopDbContext : IdentityDbContext<AppUser, AppRole, Guid>
     {
@@ -20,7 +18,7 @@ namespace ChipChipShop.Data.EF
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //Configure using  Fluent API
+            //Configure using Fluent API
             modelBuilder.ApplyConfiguration(new CartConfiguration());
 
             modelBuilder.ApplyConfiguration(new AppConfigConfiguration());
@@ -39,6 +37,7 @@ namespace ChipChipShop.Data.EF
 
             modelBuilder.ApplyConfiguration(new AppUserConfiguration());
             modelBuilder.ApplyConfiguration(new AppRoleConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductImageConfiguration());
 
             modelBuilder.Entity<IdentityUserClaim<Guid>>().ToTable("AppUserClaims");
             modelBuilder.Entity<IdentityUserRole<Guid>>().ToTable("AppUserRoles").HasKey(x => new { x.UserId, x.RoleId });
@@ -49,7 +48,6 @@ namespace ChipChipShop.Data.EF
 
             //Data seeding
             modelBuilder.Seed();
-
             //base.OnModelCreating(modelBuilder);
         }
 
@@ -77,5 +75,9 @@ namespace ChipChipShop.Data.EF
 
 
         public DbSet<Transaction> Transactions { get; set; }
+
+        public DbSet<ProductImage> ProductImages { get; set; }
+
+
     }
 }
