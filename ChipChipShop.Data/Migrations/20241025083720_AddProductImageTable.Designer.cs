@@ -4,6 +4,7 @@ using ChipChipShopSolution.Data.EF;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ChipChipShop.Data.Migrations
 {
     [DbContext(typeof(ChipChipShopDbContext))]
-    partial class ChipChipShopDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241025083720_AddProductImageTable")]
+    partial class AddProductImageTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -81,7 +83,7 @@ namespace ChipChipShop.Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "77cd9abe-c41b-40f5-affa-711eedbafec4",
+                            ConcurrencyStamp = "6007229e-2a55-4949-9d8f-25b7cfa0bea0",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"
@@ -158,7 +160,7 @@ namespace ChipChipShop.Data.Migrations
                         {
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "520b2620-3eac-4a14-9bc2-9c6bfaa82a75",
+                            ConcurrencyStamp = "e32dfe29-5830-4cd1-9ac2-11531cf7c950",
                             Dob = new DateTime(2024, 10, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "nguyenluonggiabao301203@gmail.com",
                             EmailConfirmed = true,
@@ -167,7 +169,7 @@ namespace ChipChipShop.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "lythihoangyen20052003@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAEB7VKck0F+d3bEY+OadiHMdKkfnRNo2fPZ5qJuLm50FeHqySaXLhTRb1h+U1kQO2LA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJ1OBM3vWqt4g+0FS3JbqYr0UCmpTtLcyq2H4FjXdTRUXb2MNZMPWg+SJSfJTagbkQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -508,7 +510,7 @@ namespace ChipChipShop.Data.Migrations
                         new
                         {
                             Id = 1,
-                            DateCreated = new DateTime(2024, 10, 25, 15, 46, 1, 733, DateTimeKind.Local).AddTicks(8267),
+                            DateCreated = new DateTime(2024, 10, 25, 15, 37, 19, 874, DateTimeKind.Local).AddTicks(2671),
                             OriginalPrice = 100000m,
                             Price = 200000m,
                             Stock = 0,
