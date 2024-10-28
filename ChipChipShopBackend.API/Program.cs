@@ -1,7 +1,16 @@
+using ChipChipShop.Utilities.Constants;
+using ChipChipShopSolution.Data.EF;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add your DbContext
+builder.Services.AddDbContext<ChipChipShopDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString(SystemConstants.MainConnectionString)));
+
 
 var app = builder.Build();
 

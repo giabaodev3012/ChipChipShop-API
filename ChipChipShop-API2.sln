@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChipChipShop.Data", "ChipCh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChipChipShop.Application", "ChipChipShop.Application\ChipChipShop.Application.csproj", "{BAA58548-B7EC-4F4E-8E1C-5B9808BBD8A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipChipShop.Utilities", "ChipChipShop.Utilities\ChipChipShop.Utilities.csproj", "{8F92351D-5799-4518-B9D7-706263821F43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChipChipShop.Utilities", "ChipChipShop.Utilities\ChipChipShop.Utilities.csproj", "{8F92351D-5799-4518-B9D7-706263821F43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipChipShop.ViewModels", "ChipChipShop.ViewModels\ChipChipShop.ViewModels.csproj", "{9EDD28EF-BF00-407D-966C-50E77B984368}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChipChipShop.ViewModels", "ChipChipShop.ViewModels\ChipChipShop.ViewModels.csproj", "{9EDD28EF-BF00-407D-966C-50E77B984368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipChipShopBackend.API", "ChipChipShopBackend.API\ChipChipShopBackend.API.csproj", "{6D911AB7-63FC-4698-85C3-BD24F1987156}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9EDD28EF-BF00-407D-966C-50E77B984368}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EDD28EF-BF00-407D-966C-50E77B984368}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EDD28EF-BF00-407D-966C-50E77B984368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D911AB7-63FC-4698-85C3-BD24F1987156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D911AB7-63FC-4698-85C3-BD24F1987156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D911AB7-63FC-4698-85C3-BD24F1987156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D911AB7-63FC-4698-85C3-BD24F1987156}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
