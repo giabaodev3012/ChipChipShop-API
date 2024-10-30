@@ -1,4 +1,5 @@
-﻿using ChipChipShop.Utilities.Constants;
+﻿using ChipChipShop.Application.Catalog.Products;
+using ChipChipShop.Utilities.Constants;
 using ChipChipShopSolution.Data.EF;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -13,6 +14,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ChipChipShopDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString(SystemConstants.MainConnectionString)));
 //Declare DI bai 17 
+builder.Services.AddTransient<IPublicProductService, PublicProductService>();
+builder.Services.AddControllersWithViews();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
