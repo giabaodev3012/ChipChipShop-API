@@ -1,4 +1,5 @@
 ﻿
+using ChipChipShop.Application.Catalog.Products;
 using ChipChipShop.Application.Common;
 using ChipChipShop.Data.EF;
 using ChipChipShop.Data.Entities;
