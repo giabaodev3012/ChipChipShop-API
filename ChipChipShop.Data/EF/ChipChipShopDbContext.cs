@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ChipChipShopSolution.Data.EF
+namespace ChipChipShop.Data.EF
 {
     public class ChipChipShopDbContext : IdentityDbContext<AppUser, AppRole, Guid>
     {
