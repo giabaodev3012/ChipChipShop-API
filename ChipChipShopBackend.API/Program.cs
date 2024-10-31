@@ -1,6 +1,7 @@
 ﻿using ChipChipShop.Application.Catalog.Products;
+using ChipChipShop.Application.Common;
+using ChipChipShop.Data.EF;
 using ChipChipShop.Utilities.Constants;
-using ChipChipShopSolution.Data.EF;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -13,8 +14,12 @@ builder.Services.AddControllersWithViews();
 // Add your DbContext
 builder.Services.AddDbContext<ChipChipShopDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString(SystemConstants.MainConnectionString)));
+
 //Declare DI bai 17 
+builder.Services.AddTransient<IStorageService, FileStorageService>();
 builder.Services.AddTransient<IPublicProductService, PublicProductService>();
+builder.Services.AddTransient<IManageProductService, ManageProductService>();
+
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddEndpointsApiExplorer();
@@ -27,9 +32,8 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-
-
 var app = builder.Build();
+
 // Cấu hình pipeline xử lý HTTP
 if (app.Environment.IsDevelopment())
 {

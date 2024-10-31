@@ -1,6 +1,6 @@
-﻿using ChipChipShop.ViewModels.Catalog.Products;
+﻿using ChipChipShop.Data.EF;
+using ChipChipShop.ViewModels.Catalog.Products;
 using ChipChipShop.ViewModels.Common;
-using ChipChipShopSolution.Data.EF;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -11,17 +11,19 @@ namespace ChipChipShop.Application.Catalog.Products
     public class PublicProductService : IPublicProductService
     {
         private readonly ChipChipShopDbContext _context;
+
         public PublicProductService(ChipChipShopDbContext context)
         {
             _context = context;
         }
 
-        public async Task<List<ProductViewModel>> GetAll()
+        public async Task<List<ProductViewModel>> GetAll(string languageId)
         {
             var query = from p in _context.Products
                         join pt in _context.ProductTranslations on p.Id equals pt.ProductId
                         join pic in _context.ProductInCategories on p.Id equals pic.ProductId
                         join c in _context.Categories on pic.CategoryId equals c.Id
+                        where pt.LanguageId == languageId
                         select new { p, pt, pic };
 
             var data = await query.Select(x => new ProductViewModel()
@@ -41,7 +43,11 @@ namespace ChipChipShop.Application.Catalog.Products
                 ViewCount = x.p.ViewCount
             }).ToListAsync();
             return data;
+        }
 
+        public Task<List<ProductViewModel>> GetAll()
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<PagedResult<ProductViewModel>> GetAllByCategoryId(GetPublicProductPagingRequest request)
@@ -51,6 +57,7 @@ namespace ChipChipShop.Application.Catalog.Products
                         join pt in _context.ProductTranslations on p.Id equals pt.ProductId
                         join pic in _context.ProductInCategories on p.Id equals pic.ProductId
                         join c in _context.Categories on pic.CategoryId equals c.Id
+                        where pt.LanguageId == request.LanguageId
                         select new { p, pt, pic };
             //2. filter
             if (request.CategoryId.HasValue && request.CategoryId.Value > 0)

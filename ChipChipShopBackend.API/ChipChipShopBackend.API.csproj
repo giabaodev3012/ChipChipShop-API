@@ -18,4 +18,8 @@
     <ProjectReference Include="..\ChipChipShop.ViewModels\ChipChipShop.ViewModels.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\user-content\" />
+  </ItemGroup>
+
 </Project>
