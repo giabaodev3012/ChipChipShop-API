@@ -9,6 +9,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using FluentValidation.AspNetCore;
+using ChipChipShop.ViewModels.System.Users;
+using FluentValidation;
+using FluentAssertions.Common;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +21,10 @@ builder.Services.AddDbContext<ChipChipShopDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString(SystemConstants.MainConnectionString)));
 
 builder.Services.AddControllers();
+builder.Services.AddFluentValidationAutoValidation()
+                .AddFluentValidationClientsideAdapters()
+                .AddValidatorsFromAssemblyContaining<LoginRequestValidator>();
+
 // Cấu hình Identity
 builder.Services.AddIdentity<AppUser, AppRole>()
     .AddEntityFrameworkStores<ChipChipShopDbContext>()
@@ -30,6 +38,9 @@ builder.Services.AddTransient<UserManager<AppUser>>();
 builder.Services.AddTransient<SignInManager<AppUser>>();
 builder.Services.AddTransient<RoleManager<AppRole>>();
 builder.Services.AddTransient<IUserService, UserService>();
+
+//builder.Services.AddTransient<IValidator<LoginRequest>, LoginRequestValidator>();
+//builder.Services.AddTransient<IValidator<RegisterRequest>, RegisterRequestValidator>();
 
 // Cấu hình JWT Authentication
 string issuer = builder.Configuration["Tokens:Issuer"];
