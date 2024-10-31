@@ -1,7 +1,10 @@
 ﻿using ChipChipShop.Application.Catalog.Products;
 using ChipChipShop.Application.Common;
+using ChipChipShop.Application.System.Users;
 using ChipChipShop.Data.EF;
+using ChipChipShop.Data.Entities;
 using ChipChipShop.Utilities.Constants;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -15,10 +18,18 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ChipChipShopDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString(SystemConstants.MainConnectionString)));
 
+builder.Services.AddIdentity<AppUser, AppRole>()
+    .AddEntityFrameworkStores<ChipChipShopDbContext>()
+    .AddDefaultTokenProviders();
+
 //Declare DI bai 17 
 builder.Services.AddTransient<IStorageService, FileStorageService>();
 builder.Services.AddTransient<IPublicProductService, PublicProductService>();
 builder.Services.AddTransient<IManageProductService, ManageProductService>();
+builder.Services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();
+builder.Services.AddTransient<SignInManager<AppUser>, SignInManager<AppUser>>();
+builder.Services.AddTransient<RoleManager<AppRole>, RoleManager<AppRole>>();
+builder.Services.AddTransient<IUserService, UserService>();
 
 builder.Services.AddControllersWithViews();
 
