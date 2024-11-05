@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
+<<<<<<< Updated upstream
     ""
   ],
+=======
+    "",
+    "\\ChipChipShop",
+    "\\ChipChipShop\\ChipChipShopSolution.AdminApp",
+    "\\ChipChipShop\\ChipChipShopSolution.AdminApp\\Controllers"
+  ],
+  "SelectedNode": "\\ChipChipShop\\ChipChipShopSolution.AdminApp\\Controllers\\UserController.cs",
+>>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }
