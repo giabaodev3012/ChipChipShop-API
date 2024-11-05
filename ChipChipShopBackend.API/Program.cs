@@ -32,8 +32,7 @@ builder.Services.AddIdentity<AppUser, AppRole>()
 
 // Đăng ký các dịch vụ tùy chỉnh
 builder.Services.AddTransient<IStorageService, FileStorageService>();
-builder.Services.AddTransient<IPublicProductService, PublicProductService>();
-builder.Services.AddTransient<IManageProductService, ManageProductService>();
+builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddTransient<UserManager<AppUser>>();
 builder.Services.AddTransient<SignInManager<AppUser>>();
 builder.Services.AddTransient<RoleManager<AppRole>>();
