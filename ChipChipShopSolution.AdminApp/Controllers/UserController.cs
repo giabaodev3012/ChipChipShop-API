@@ -12,79 +12,121 @@ using System.Text;
 
 namespace ChipChipShopSolution.AdminApp.Controllers
 {
-    public class UserController : Controller
+    public class UserController : BaseController
     {
         private readonly IUserApiClient _userApiClient;
         private readonly IConfiguration _configuration;
-        public UserController(IUserApiClient userApiClient, IConfiguration configuration) { 
-           _userApiClient = userApiClient;
+
+        public UserController(IUserApiClient userApiClient, IConfiguration configuration)
+        {
+            _userApiClient = userApiClient;
             _configuration = configuration;
         }
-        public IActionResult Index()
+
+        public async Task<IActionResult> Index(string keyword, int pageIndex = 1, int pageSize = 10)
         {
-            return View();
+            var request = new GetUserPagingRequest()
+            {
+                Keyword = keyword,
+                PageIndex = pageIndex,
+                PageSize = pageSize
+            };
+            var data = await _userApiClient.GetUsersPagings(request);
+            return View(data.ResultObj);
         }
 
         [HttpGet]
-        public async Task<IActionResult> Login()
+        public async Task<IActionResult> Details(Guid id)
         {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            var result = await _userApiClient.GetById(id);
+            return View(result.ResultObj);
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
             return View();
         }
+
         [HttpPost]
-        public async Task<IActionResult> Login(LoginRequest request)
+        public async Task<IActionResult> Create(RegisterRequest request)
         {
-        
-            if(!ModelState.IsValid)
-                return View(ModelState);
+            if (!ModelState.IsValid)
+                return View();
 
-            var token = await _userApiClient.Authenticate(request);
-            
-            var userPrincipal = this.ValidateToken(token);
-            var authProperties = new AuthenticationProperties
-            {
-                ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(10),
-                IsPersistent = false,
-            };
+            var result = await _userApiClient.RegisterUser(request);
+            if (result.IsSuccessed)
+                return RedirectToAction("Index");
 
-            await HttpContext.SignInAsync(
-                CookieAuthenticationDefaults.AuthenticationScheme,
-                userPrincipal,
-                authProperties
-                );
-
-            return RedirectToAction("Index","Home");
+            ModelState.AddModelError("", result.Message);
+            return View(request);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(Guid id)
+        {
+            var result = await _userApiClient.GetById(id);
+            if (result.IsSuccessed)
+            {
+                var user = result.ResultObj;
+                var updateRequest = new UserUpdateRequest()
+                {
+                    Dob = user.Dob,
+                    Email = user.Email,
+                    FirstName = user.FirstName,
+                    LastName = user.LastName,
+                    PhoneNumber = user.PhoneNumber,
+                    Id = id
+                };
+                return View(updateRequest);
+            }
+            return RedirectToAction("Error", "Home");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(UserUpdateRequest request)
+        {
+            if (!ModelState.IsValid)
+                return View();
+
+            var result = await _userApiClient.UpdateUser(request.Id, request);
+            if (result.IsSuccessed)
+                return RedirectToAction("Index");
+
+            ModelState.AddModelError("", result.Message);
+            return View(request);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Login","User");
+            HttpContext.Session.Remove("Token");
+            return RedirectToAction("Login", "User");
         }
 
-
-        private ClaimsPrincipal ValidateToken(string jwtToken)
+        [HttpGet]
+        public IActionResult Delete(Guid id)
         {
-            // Bật chế độ hiển thị thông tin chi tiết (PII)
-            IdentityModelEventSource.ShowPII = true;
+            return View(new UserDeleteRequest()
+            {
+                Id = id
+            });
+        }
 
-            SecurityToken validatedToken;
-            TokenValidationParameters validationParameters = new TokenValidationParameters();
+        [HttpPost]
+        public async Task<IActionResult> Delete(UserDeleteRequest request)
+        {
+            if (!ModelState.IsValid)
+                return View();
 
-            validationParameters.ValidateLifetime = true; // Kiểm tra thời gian sống của token
-            validationParameters.ValidAudience = _configuration["Tokens:Issuer"]; // Đối tượng dự kiến của token
-            validationParameters.ValidIssuer = _configuration["Tokens:Issuer"]; // Người phát hành token
-            validationParameters.IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Tokens:Key"])); // Khóa bí mật để ký token
+            var result = await _userApiClient.Delete(request.Id);
+            if (result.IsSuccessed)
+                return RedirectToAction("Index");
 
-
-            // Xác thực token
-
-            ClaimsPrincipal principal = new JwtSecurityTokenHandler().ValidateToken(jwtToken, validationParameters, out validatedToken);
-            // Trả về thông tin người dùng
-            return principal;
+            ModelState.AddModelError("", result.Message);
+            return View(request);
         }
 
     }
-
-    
 }

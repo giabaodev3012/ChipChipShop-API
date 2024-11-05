@@ -1,102 +1,110 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\",
+  "WorkspaceRootPath": "D:\\ChipChipShop-UI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopbackend.api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|solutionrelative:chipchipshopbackend.api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopbackend.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|solutionrelative:chipchipshopbackend.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAA58548-B7EC-4F4E-8E1C-5B9808BBD8A8}|ChipChipShop.Application\\ChipChipShop.Application.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshop.application\\system\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAA58548-B7EC-4F4E-8E1C-5B9808BBD8A8}|ChipChipShop.Application\\ChipChipShop.Application.csproj|solutionrelative:chipchipshop.application\\system\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopbackend.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|solutionrelative:chipchipshopbackend.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopbackend.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|solutionrelative:chipchipshopbackend.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\chipchipshopsolution.adminapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\chipchipshopsolution.adminapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\services\\userapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\services\\userapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\services\\userapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\services\\iuserapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\services\\iuserapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\services\\iuserapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|d:\\chipchipshop-ui\\chipchipshopbackend.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|solutionrelative:chipchipshopbackend.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BAA58548-B7EC-4F4E-8E1C-5B9808BBD8A8}|ChipChipShop.Application\\ChipChipShop.Application.csproj|d:\\chipchipshop-ui\\chipchipshop.application\\system\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAA58548-B7EC-4F4E-8E1C-5B9808BBD8A8}|ChipChipShop.Application\\ChipChipShop.Application.csproj|solutionrelative:chipchipshop.application\\system\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BAA58548-B7EC-4F4E-8E1C-5B9808BBD8A8}|ChipChipShop.Application\\ChipChipShop.Application.csproj|d:\\chipchipshop-ui\\chipchipshop.application\\system\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAA58548-B7EC-4F4E-8E1C-5B9808BBD8A8}|ChipChipShop.Application\\ChipChipShop.Application.csproj|solutionrelative:chipchipshop.application\\system\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|d:\\chipchipshop-ui\\chipchipshop.viewmodels\\system\\users\\userdeleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|solutionrelative:chipchipshop.viewmodels\\system\\users\\userdeleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\shared\\pager\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\shared\\pager\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BAA58548-B7EC-4F4E-8E1C-5B9808BBD8A8}|ChipChipShop.Application\\ChipChipShop.Application.csproj|d:\\chipchipshop-ui\\chipchipshop.application\\catalog\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAA58548-B7EC-4F4E-8E1C-5B9808BBD8A8}|ChipChipShop.Application\\ChipChipShop.Application.csproj|solutionrelative:chipchipshop.application\\catalog\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopbackend.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|solutionrelative:chipchipshopbackend.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|d:\\chipchipshop-ui\\chipchipshop.viewmodels\\common\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|solutionrelative:chipchipshop.viewmodels\\common\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|d:\\chipchipshop-ui\\chipchipshop-ui\\chipchipshopbackend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D911AB7-63FC-4698-85C3-BD24F1987156}|ChipChipShopBackend.API\\ChipChipShopBackend.API.csproj|solutionrelative:chipchipshopbackend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|d:\\chipchipshop-ui\\chipchipshop.viewmodels\\system\\users\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|solutionrelative:chipchipshop.viewmodels\\system\\users\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\controllers\\components\\pagerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\controllers\\components\\pagerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|d:\\chipchipshop-ui\\chipchipshop.viewmodels\\common\\pagedresultbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|solutionrelative:chipchipshop.viewmodels\\common\\pagedresultbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|d:\\chipchipshop-ui\\chipchipshop.viewmodels\\common\\apierrorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|solutionrelative:chipchipshop.viewmodels\\common\\apierrorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|d:\\chipchipshop-ui\\chipchipshop.viewmodels\\system\\users\\userupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|solutionrelative:chipchipshop.viewmodels\\system\\users\\userupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|d:\\chipchipshop-ui\\chipchipshop.viewmodels\\common\\pagingrequestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|solutionrelative:chipchipshop.viewmodels\\common\\pagingrequestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|d:\\chipchipshop-ui\\chipchipshop.viewmodels\\system\\users\\getuserpagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDD28EF-BF00-407D-966C-50E77B984368}|ChipChipShop.ViewModels\\ChipChipShop.ViewModels.csproj|solutionrelative:chipchipshop.viewmodels\\system\\users\\getuserpagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|d:\\chipchipshop-ui\\chipchipshopsolution.adminapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC344DFF-4393-4318-B975-28DE67C9AB01}|ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj|solutionrelative:chipchipshopsolution.adminapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,295 +122,341 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T06:53:13.946Z",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\User\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\User\\Delete.cshtml",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\User\\Delete.cshtml",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\User\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T19:50:40.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T09:07:57.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Program.cs",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Program.cs",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Program.cs",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T07:00:32.047Z",
+              "WhenOpened": "2024-11-05T17:49:32.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T06:49:35.328Z",
+              "Title": "UserApiClient.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Services\\UserApiClient.cs",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Services\\UserApiClient.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Services\\UserApiClient.cs",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Services\\UserApiClient.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwC8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:59:25.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserApiClient.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Services\\IUserApiClient.cs",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Services\\IUserApiClient.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Services\\IUserApiClient.cs",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Services\\IUserApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:13:03.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopBackend.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ChipChipShopBackend.API\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopBackend.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ChipChipShopBackend.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwFgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:42:41.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop.Application\\System\\Users\\UserService.cs",
+              "RelativeDocumentMoniker": "ChipChipShop.Application\\System\\Users\\UserService.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop.Application\\System\\Users\\UserService.cs",
+              "RelativeToolTip": "ChipChipShop.Application\\System\\Users\\UserService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:52:38.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop.Application\\System\\Users\\IUserService.cs",
+              "RelativeDocumentMoniker": "ChipChipShop.Application\\System\\Users\\IUserService.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop.Application\\System\\Users\\IUserService.cs",
+              "RelativeToolTip": "ChipChipShop.Application\\System\\Users\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:52:24.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopBackend.API\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ChipChipShopBackend.API\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopBackend.API\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ChipChipShopBackend.API\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Title": "UserDeleteRequest.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\System\\Users\\UserDeleteRequest.cs",
+              "RelativeDocumentMoniker": "ChipChipShop.ViewModels\\System\\Users\\UserDeleteRequest.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\System\\Users\\UserDeleteRequest.cs",
+              "RelativeToolTip": "ChipChipShop.ViewModels\\System\\Users\\UserDeleteRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T09:29:46.55Z"
+              "WhenOpened": "2024-11-05T19:38:47.833Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-03T06:32:46.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\appsettings.json",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\appsettings.json",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\appsettings.json",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-03T08:05:49.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAD8AAABJAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\User\\Details.cshtml",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\User\\Details.cshtml",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\User\\Details.cshtml",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\User\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T06:39:56.562Z",
+              "WhenOpened": "2024-11-05T18:52:40.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopBackend.API\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "ChipChipShopBackend.API\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopBackend.API\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "ChipChipShopBackend.API\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:43:55.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShop.Application\\System\\Users\\UserService.cs",
-              "RelativeDocumentMoniker": "ChipChipShop.Application\\System\\Users\\UserService.cs",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShop.Application\\System\\Users\\UserService.cs",
-              "RelativeToolTip": "ChipChipShop.Application\\System\\Users\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T09:20:48.175Z"
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Shared\\Pager\\Default.cshtml",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\Shared\\Pager\\Default.cshtml",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Shared\\Pager\\Default.cshtml",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\Shared\\Pager\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T19:07:49.231Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopBackend.API\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "ChipChipShopBackend.API\\Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopBackend.API\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "ChipChipShopBackend.API\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop.Application\\Catalog\\Products\\ProductService.cs",
+              "RelativeDocumentMoniker": "ChipChipShop.Application\\Catalog\\Products\\ProductService.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop.Application\\Catalog\\Products\\ProductService.cs",
+              "RelativeToolTip": "ChipChipShop.Application\\Catalog\\Products\\ProductService.cs",
+              "ViewState": "AgIAAA4BAAAAAAAAAAAiwCQBAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T09:09:17.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopBackend.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ChipChipShopBackend.API\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopBackend.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ChipChipShopBackend.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-03T08:16:17.588Z"
+              "WhenOpened": "2024-11-05T19:25:11.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ChipChipShopSolution.AdminApp.csproj",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\ChipChipShopSolution.AdminApp.csproj",
+              "Title": "UserVM.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\System\\Users\\UserVM.cs",
+              "RelativeDocumentMoniker": "ChipChipShop.ViewModels\\System\\Users\\UserVM.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\System\\Users\\UserVM.cs",
+              "RelativeToolTip": "ChipChipShop.ViewModels\\System\\Users\\UserVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-03T08:07:13.687Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:57:20.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\Common\\PagedResult.cs",
+              "RelativeDocumentMoniker": "ChipChipShop.ViewModels\\Common\\PagedResult.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\Common\\PagedResult.cs",
+              "RelativeToolTip": "ChipChipShop.ViewModels\\Common\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T19:10:48.801Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "UserApiClient.cs",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Services\\UserApiClient.cs",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Services\\UserApiClient.cs",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Services\\UserApiClient.cs",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Services\\UserApiClient.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBIAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:09:25.37Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T18:34:37.968Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "IUserApiClient.cs",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Services\\IUserApiClient.cs",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Services\\IUserApiClient.cs",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Services\\IUserApiClient.cs",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Services\\IUserApiClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:08:17.446Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T19:20:59.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PagerViewComponent.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\Components\\PagerViewComponent.cs",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Controllers\\Components\\PagerViewComponent.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\Components\\PagerViewComponent.cs",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Controllers\\Components\\PagerViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T09:08:56.127Z"
+              "WhenOpened": "2024-11-05T19:03:39.745Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T09:08:43.575Z"
+              "Title": "PagedResultBase.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\Common\\PagedResultBase.cs",
+              "RelativeDocumentMoniker": "ChipChipShop.ViewModels\\Common\\PagedResultBase.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\Common\\PagedResultBase.cs",
+              "RelativeToolTip": "ChipChipShop.ViewModels\\Common\\PagedResultBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T19:10:05.178Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "Title": "ApiErrorResult.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\Common\\ApiErrorResult.cs",
+              "RelativeDocumentMoniker": "ChipChipShop.ViewModels\\Common\\ApiErrorResult.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\Common\\ApiErrorResult.cs",
+              "RelativeToolTip": "ChipChipShop.ViewModels\\Common\\ApiErrorResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T06:48:52.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T09:08:40.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T09:08:38.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T09:08:37.912Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:45:23.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\User\\Login.cshtml",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\User\\Login.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAACcAAAAuAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:36:20.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Views\\User\\Edit.cshtml",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T06:59:33.849Z"
+              "WhenOpened": "2024-11-05T18:24:33.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:36:51.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Program.cs",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Program.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Program.cs",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:53:53.481Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopBackend.API\\appsettings.json",
-              "RelativeDocumentMoniker": "ChipChipShopBackend.API\\appsettings.json",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopBackend.API\\appsettings.json",
-              "RelativeToolTip": "ChipChipShopBackend.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-03T08:15:38.574Z"
+              "Title": "UserUpdateRequest.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\System\\Users\\UserUpdateRequest.cs",
+              "RelativeDocumentMoniker": "ChipChipShop.ViewModels\\System\\Users\\UserUpdateRequest.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\System\\Users\\UserUpdateRequest.cs",
+              "RelativeToolTip": "ChipChipShop.ViewModels\\System\\Users\\UserUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:26:35.855Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopBackend.API\\Program.cs",
-              "RelativeDocumentMoniker": "ChipChipShopBackend.API\\Program.cs",
-              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop-UI\\ChipChipShopBackend.API\\Program.cs",
-              "RelativeToolTip": "ChipChipShopBackend.API\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABgAAAA4AAAAAAAAAA==",
+              "Title": "PagingRequestBase.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\Common\\PagingRequestBase.cs",
+              "RelativeDocumentMoniker": "ChipChipShop.ViewModels\\Common\\PagingRequestBase.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\Common\\PagingRequestBase.cs",
+              "RelativeToolTip": "ChipChipShop.ViewModels\\Common\\PagingRequestBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T07:59:20.191Z"
+              "WhenOpened": "2024-11-05T18:18:06.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetUserPagingRequest.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\System\\Users\\GetUserPagingRequest.cs",
+              "RelativeDocumentMoniker": "ChipChipShop.ViewModels\\System\\Users\\GetUserPagingRequest.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShop.ViewModels\\System\\Users\\GetUserPagingRequest.cs",
+              "RelativeToolTip": "ChipChipShop.ViewModels\\System\\Users\\GetUserPagingRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:15:44.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ChipChipShopSolution.AdminApp\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\ChipChipShop-UI\\ChipChipShopSolution.AdminApp\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ChipChipShopSolution.AdminApp\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwBIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:14:02.735Z",
+              "EditorCaption": ""
             }
           ]
         }

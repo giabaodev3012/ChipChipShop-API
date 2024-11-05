@@ -10,11 +10,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddHttpClient();
+
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.LoginPath = "/User/Login/";
-        options.AccessDeniedPath = "/Account/Forbidden/";
+        options.LoginPath = "/Login/Index";
+        options.AccessDeniedPath = "/User/Forbidden/";
     });
 
 builder.Services.AddRazorPages();
@@ -26,6 +27,16 @@ if (builder.Environment.IsDevelopment())
 {
     mvcBuilder.AddRazorRuntimeCompilation();
 }
+
+
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+});
+
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddTransient<IUserApiClient, UserApiClient>();
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddControllers();
 builder.Services.AddFluentValidationAutoValidation()
@@ -53,6 +64,7 @@ app.UseAuthentication();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
