@@ -1,37 +1,30 @@
-# Ignore build results
-[Bb]in/
-[Oo]bj/
-
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-*.userprefs
-
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Ll]og/
+# Bỏ qua thư mục .vs (Visual Studio)
 .vs/
 
-# Ignore NuGet packages
-**/[Pp]ackages/*
-!**/[Pp]ackages/build/
-
-# SQL Server files
-*.mdf
-*.ldf
-*.ndf
-
-# Others
-*.tmp
+# Bỏ qua các tệp và thư mục tạm thời của .NET
+**/bin/
+**/obj/
+*.pdb
+*.exe
+*.dll
 *.log
+*.cache
+*.temp
+*.pid
+
+# Bỏ qua tệp cấu hình ứng dụng dành riêng cho môi trường phát triển
+**/appsettings.Development.json
+
+# Bỏ qua các tệp appsettings.json để bảo vệ cấu hình nhạy cảm
+**/appsettings.json
+
+# Bỏ qua các tệp cấu hình cục bộ cho Visual Studio
+*.csproj.user
+
+# Bỏ qua thư mục và tệp hệ điều hành
+.DS_Store
+Thumbs.db
+
+# CI/CD
+*.yml
+*.yaml
