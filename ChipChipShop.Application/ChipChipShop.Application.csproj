@@ -21,4 +21,20 @@
     <ProjectReference Include="..\ChipChipShop.ViewModels\ChipChipShop.ViewModels.csproj" />
   </ItemGroup>
 
+<PropertyGroup>
+  <TargetFramework>net6.0</TargetFramework>
+  <ImplicitUsings>enable</ImplicitUsings>
+  <Nullable>enable</Nullable>
+
+  <!-- Thông tin về gói NuGet -->
+  <PackageId>ChipChipShop.Application</PackageId>  <!-- Tên gói NuGet -->
+  <Version>1.0.0</Version>  <!-- Phiên bản gói -->
+  <Authors>ChipChipShop</Authors>  <!-- Tên tác giả -->
+  <Company>ChipChipShop</Company>  <!-- Tên công ty -->
+  <Description>This package contains the ChipChipShop application services.</Description>  <!-- Mô tả -->
+  <PackageLicenseExpression>MIT</PackageLicenseExpression>  <!-- Giấy phép -->
+  <RepositoryUrl>https://github.com/giabaodev3012/ChipChipShop-API.git</RepositoryUrl>  <!-- URL repo -->
+</PropertyGroup>
+
+
 </Project>
